@@ -6,7 +6,7 @@
     "module_name": "{{ cookiecutter.plugin_name|lower|replace('-', '_') }}",
     "short_description": "A simple plugin to use with sqldoc",
     "version": "0.1.0",
-    "pytest_version": "0.1.0",
+    "sqldoc_version": "0.1.0",
     "docs_tool": ["mkdocs", "sphinx", "none"],
     "license": [
         "MIT",

@@ -1,4 +1,4 @@
-site_name: pytest-{{cookiecutter.plugin_name}}
+site_name: sqldoc-{{cookiecutter.plugin_name}}
 site_description: {{cookiecutter.short_description}}
 site_author: {{cookiecutter.full_name}}
 

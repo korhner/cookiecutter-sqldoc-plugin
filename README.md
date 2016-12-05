@@ -30,7 +30,7 @@ github_username [korhner]: korhner
 plugin_name [sqldoc]: sqldoc
 short_description [A simple plugin to use with sqldoc]:
 version [0.1.0]:
-pytest_version [0.1.0]:
+sqldoc_version [0.1.0]:
 Select docs_tool:
 1 - mkdocs
 2 - sphinx
@@ -108,7 +108,7 @@ Plugin is free and open source software
   [docs_badge]: https://readthedocs.org/projects/cookiecutter-sqldoc-plugin/badge/?version=latest
   [documentation]: https://cookiecutter-sqldoc-plugin.readthedocs.io/en/latest/ (Documentation)
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [sqldoc]: https://github.com/korhner/pytest
+  [sqldoc]: https://github.com/korhner/sqldoc
   [PyPI]: https://pypi.python.org/pypi
   [Tox]: https://tox.readthedocs.io/en/latest/
   [MIT license]: http://opensource.org/licenses/MIT

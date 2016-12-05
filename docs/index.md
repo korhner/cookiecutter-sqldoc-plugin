@@ -1,16 +1,15 @@
-# Welcome to Cookiecutter Pytest Plugin
+# Welcome to Cookiecutter sqldoc Plugin
 
-[![Join Chat on Gitter.im][gitter_badge]][gitter]
 [![See Build Status on Travis CI][travis_badge]][travis]
 [![Documentation Status][docs_badge]][documentation]
 
-Minimal [Cookiecutter] template for authoring [Pytest] plugins that help
+Minimal [Cookiecutter] template for authoring [sqldoc] plugins that help
 you to write better programs.
 
 User
 ====
 
-Do you want to author a Pytest Plugin, but you are uncertain how to get started?
+Do you want to author a sqldoc Plugin, but you are uncertain how to get started?
 
 This project helps you to create a plugin based on Best-Practices.
 
@@ -36,18 +35,16 @@ detailed description.
 License
 =======
 
-Distributed under the terms of the [MIT license], Cookiecutter Pytest
+Distributed under the terms of the [MIT license], Cookiecutter sqldoc
 Plugin is free and open source software
 
   [Contributor]: contributor-guide/quickstart.md
   [User]: user-guide/quickstart.md
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
-  [Pytest]: https://github.com/pytest-dev/pytest
-  [gitter_badge]: https://badges.gitter.im/Join%20Chat.svg
-  [gitter]: https://gitter.im/pytest-dev/cookiecutter-pytest-plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge (Join Chat on Gitter.im)
-  [travis_badge]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin.svg?branch=master
-  [travis]: https://travis-ci.org/pytest-dev/cookiecutter-pytest-plugin (See Build Status on Travis CI)
-  [docs_badge]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/badge/?version=latest
-  [documentation]: https://readthedocs.org/projects/cookiecutter-pytest-plugin/?badge=latest (Documentation Status)
+  [sqldoc]: https://github.com/korhner/sqldoc
+  [travis_badge]: https://travis-ci.org/korhner/cookiecutter-sqldoc-plugin.svg?branch=master
+  [travis]: https://travis-ci.org/korhner/cookiecutter-sqldoc-plugin (See Build Status on Travis CI)
+  [docs_badge]: https://readthedocs.org/projects/cookiecutter-sqldoc-plugin/badge/?version=latest
+  [documentation]: https://readthedocs.org/projects/cookiecutter-sqldoc-plugin/?badge=latest (Documentation Status)
   [MIT license]: http://opensource.org/licenses/MIT
-  [file an issue]: https://github.com/pytest-dev/cookiecutter-pytest-plugin/issues
+  [file an issue]: https://github.com/korhner/cookiecutter-sqldoc-plugin/issues

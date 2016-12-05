@@ -18,7 +18,7 @@ $ pip install cookiecutter
 You can generate a new project from a template by using the following command:
 
 ```no-highlight
-$ cookiecutter https://github.com/pytest-dev/cookiecutter-pytest-plugin
+$ cookiecutter https://github.com/korhner/cookiecutter-sqldoc-plugin
 ```
 
 This will not only ``git clone`` the template but also start the generation process.
@@ -34,13 +34,14 @@ or markdown formats.
 Cookiecutter prompts you for information regarding your plugin based on aforementioned variables:
 
 ```no-highlight
-full_name [Raphael Pierzina]: Andreas Pelme
-email [raphael@hackebrot.de]: andreas@pelme.se
-github_username [hackebrot]: pelme
-plugin_name [foobar]: awesome
-short_description [A simple plugin to use with Pytest]:
+full_name [Ivan Korhner]: Ivan Korhner
+email [korhner@gmail.com]: korhner@gmail.com
+github_username [korhner]: korhner
+plugin_name [plugin]: plugin
+short_description [A simple plugin to use with sqldoc]:
+short_description [A simple plugin to use with sqldoc]:
 version [0.1.0]:
-pytest_version [2.9.0]: 2.9.1
+sqldoc_version [0.1.0]: 0.1.0
 ```
 
 The values in the square brackets (f.i. ``[foobar]``) are defaults for the according variables.
@@ -50,18 +51,18 @@ The values in the square brackets (f.i. ``[foobar]``) are defaults for the accor
 Once you answered to the questions, Cookiecutter renders the the project:
 
 ```no-highlight
-pytest-awesome/
+sqldoc-plugin/
 ├── LICENSE
 ├── README.rst
-├── pytest_awesome.py
+├── sqldoc_plugin.py
 ├── setup.py
 ├── tests
 │   ├── conftest.py
-│   └── test_awesome.py
+│   └── test_plugin.py
 └── tox.ini
 ```
 
-There you go - you just created a minimal Pytest plugin:
+There you go - you just created a minimal sqldoc plugin:
 
   [Cookiecutter]: https://github.com/audreyr/cookiecutter
   [PyPI]: https://pypi.python.org/pypi/cookiecutter/1.0.0
