@@ -1,0 +1,16 @@
+site_name: Cookiecutter sqldoc Plugin
+site_description: Minimal Cookiecutter template for authoring sqldoc plugins.
+site_author: Ivan Korhner
+
+theme: readthedocs
+
+repo_url: https://github.com/korhner/cookiecutter-sqldoc-plugin
+
+pages:
+- Home: index.md
+- User Guide:
+    - Quickstart: user-guide/quickstart.md
+    - Publish: user-guide/publish-plugin.md
+- Contributor Guide:
+    - Quickstart: contributor-guide/quickstart.md
+    - Documentation: contributor-guide/documentation.md
