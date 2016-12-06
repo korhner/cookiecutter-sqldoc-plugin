@@ -49,7 +49,7 @@ setup(
     ],
     entry_points={
         'sqldoc_component': [
-            '{{cookiecutter.plugin_name}} = sqldoc_{{cookiecutter.module_name}}',
+            '{{cookiecutter.plugin_name}} = sqldoc_{{cookiecutter.module_name}}::get_component',
         ],
     },
 )

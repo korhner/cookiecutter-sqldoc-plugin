@@ -2,6 +2,5 @@
 
 import sqldoc
 
-
-def get_component(parser):
+def get_component():
 	pass
